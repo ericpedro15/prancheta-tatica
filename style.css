@@ -4,202 +4,224 @@
 }
 
 body {
-  background: #24490ad2;
+  background: rgba(0, 0, 0, 0.83);
 }
 
 #container {
   position: absolute;
   height: 626px;
-  width: 700px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#campo {
-  position: absolute;
-  background-color: red;
-  background: url(Imagens/campo.jpg);
-  height: 626px;
-  width: 391px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-#time-um {
-  position: absolute;
-  top: 1%;
-  left: 1%;
-}
-
-#time-dois {
-  position: absolute;
-  top: 1%;
-  left: 99%;
-  transform: translate(-100%);
-}
-
 .jogador {
   width: 24px;
   height: 24px;
-  filter: drop-shadow(0px 0px 1px #000e1a98);
+  box-shadow: 0px 0px 2px 1.5px #000e1a98;
   cursor: move;
+  color: rgb(241, 241, 241);
+  font-family: 'Arial Narrow Bold', sans-serif, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #um-azul {
   position: absolute;
-  background: url(Imagens/um-azul.png);
+  background: #0072CC;
   top: 6%;
   left: 50%;
   transform: translate(-50%);
+  border-radius: 50%;
 }
 
 #dois-azul {
   position: absolute;
-  background: url(Imagens/dois-azul.png);
+  background: #0072CC;
   top: 20%;
   left: 6%;
+  border-radius: 50%;
 }
 
 #tres-azul {
   position: absolute;
-  background: url(Imagens/tres-azul.png);
+  background: #0072CC;
   top: 15%;
   left: 31%;
+  border-radius: 50%;
 }
 
 #quatro-azul {
   position: absolute;
-  background: url(Imagens/quatro-azul.png);
+  background: #0072CC;
   top: 15%;
   left: 63%;
+  border-radius: 50%;
 }
 
 #cinco-azul {
   position: absolute;
-  background: url(Imagens/cinco-azul.png);
+  background: #0072CC;
   top: 25%;
   left: 47%;
+  border-radius: 50%;
 }
 
 #seis-azul {
   position: absolute;
-  background: url(Imagens/seis-azul.png);
+  background: #0072CC;
   top: 20%;
   left: 88%;
+  border-radius: 50%;
 }
 
 #sete-azul {
   position: absolute;
-  background: url(Imagens/sete-azul.png);
+  background: #0072CC;
   top: 40%;
-  left: 10%;
+  left: 84%;
+  border-radius: 50%;
 }
 
 #oito-azul {
   position: absolute;
-  background: url(Imagens/oito-azul.png);
+  background: #0072CC;
   top: 34%;
   left: 30%;
+  border-radius: 50%;
 }
 
 #nove-azul {
   position: absolute;
-  background: url(Imagens/nove-azul.png);
+  background: #0072CC;
   top: 44%;
   left: 47.4%;
+  border-radius: 50%;
 }
 
 #dez-azul {
   position: absolute;
-  background: url(Imagens/dez-azul.png);
+  background: #0072CC;
   top: 34%;
   left: 62%;
+  border-radius: 50%;
 }
 
 #onze-azul {
   position: absolute;
-  background: url(Imagens/onze-azul.png);
+  background: #0072CC;
   top: 40%;
-  left: 84%;
+  left: 10%;
+  border-radius: 50%;
 }
 
 #um-vermelho {
   position: absolute;
-  background: url(Imagens/um-vermelho.png);
+  background: #CC2E00;
   top: 90%;
   left: 50%;
   transform: translate(-50%);
+  border-radius: 50%;
 }
 
 #dois-vermelho {
   position: absolute;
-  background: url(Imagens/dois-vermelho.png);
+  background: #CC2E00;
   top: 75%;
-  left: 6%;
+  left: 88%;
+  border-radius: 50%;
 }
 
 #tres-vermelho {
   position: absolute;
-  background: url(Imagens/tres-vermelho.png);
+  background: #CC2E00;
   top: 81%;
-  left: 31%;
+  left: 63%;
+  border-radius: 50%;
 }
 
 #quatro-vermelho {
   position: absolute;
-  background: url(Imagens/quatro-vermelho.png);
+  background: #CC2E00;
   top: 81%;
-  left: 63%;
+  left: 31%;
+  border-radius: 50%;
 }
 
 #cinco-vermelho {
   position: absolute;
-  background: url(Imagens/cinco-vermelho.png);
+  background: #CC2E00;
   top: 71.5%;
   left: 47%;
+  border-radius: 50%;
 }
 
 #seis-vermelho {
   position: absolute;
-  background: url(Imagens/seis-vermelho.png);
+  background: #CC2E00;
   top: 75%;
-  left: 88%;
+  left: 6%;
+  border-radius: 50%;
 }
 
 #sete-vermelho {
   position: absolute;
-  background: url(Imagens/sete-vermelho.png);
+  background: #CC2E00;
   top: 55%;
   left: 10%;
+  border-radius: 50%;
 }
 
 #oito-vermelho {
   position: absolute;
-  background: url(Imagens/oito-vermelho.png);
+  background: #CC2E00;
   top: 64%;
-  left: 30%;
+  left: 62%;
+  border-radius: 50%;
 }
 
 #nove-vermelho {
   position: absolute;
-  background: url(Imagens/nove-vermelho.png);
+  background: #CC2E00;
   top: 52%;
   left: 47.4%;
+  border-radius: 50%;
 }
 
 #dez-vermelho {
   position: absolute;
-  background: url(Imagens/dez-vermelho.png);
+  background: #CC2E00;
   top: 64%;
-  left: 62%;
+  left: 30%;
+  border-radius: 50%;
 }
 
 #onze-vermelho {
   position: absolute;
-  background: url(Imagens/onze-vermelho.png);
+  background: #CC2E00;
   top: 55%;
   left: 84%;
+  border-radius: 50%;
+}
+
+@media (max-width: 390px) {
+
+  #container {
+    height: 560px;
+  }
+
+  #campo {
+    height: 560px;
+    width: 325px;
+  }
+
+  .jogador {
+    height: 20px;
+    width: 20px;
+    font-size: 12px;
+  }
 }
